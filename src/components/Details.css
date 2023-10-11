@@ -1,0 +1,15 @@
+.details1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.details2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}

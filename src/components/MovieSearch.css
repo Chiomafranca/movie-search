@@ -1,0 +1,41 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(245, 239, 239);
+    width: 100%;
+    padding: 3px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.icon-search{
+    color: white;
+    cursor: pointer;
+}
+
+.search input {
+    background-color: inherit;
+    border: none;
+    width: 32%;
+    margin-left: 4px;
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+
+.search img {
+    cursor: pointer;
+}
+
+ @media screen and (max-width: 1000px) {
+    .search input {
+        width: 100%;
+    }
+    
+    .search {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+    }
+}

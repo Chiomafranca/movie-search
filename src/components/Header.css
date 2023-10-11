@@ -1,0 +1,108 @@
+.image {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/header.png');  
+}
+
+.movie-search{
+    width:40%;
+    margin-top: 10px;
+}
+
+
+.image .nav-header{
+    display: flex;
+    justify-content: space-around;
+}
+.tv-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    /* margin-top: 50px; */
+}
+.tv-icon img{
+    height: 40px;
+}
+.sign-in{
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+      .image{
+         width: 100%;
+         overflow-y: hidden;
+      }
+    .nav-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+    }
+}
+/* End of header */
+
+/* Begining of SIDELOGO */
+.sidelogo{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5rem;
+}
+
+.sidelogo p{
+   margin-left: 15px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 2rem;
+}
+.apple-num{
+    display: flex;
+    height: 20px;
+    align-items: center; 
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    padding: 4px;
+    height: 20px;
+    width: 140px;
+    background-color: rgb(196, 11, 138);
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 1000px){
+    .image{
+       width: 100%;
+    }
+ .header-side{
+    font-size: 20px;
+  /* position: absolute;
+  top: 14rem;
+  left: 10rem; */
+ }
+ .para{
+    font-size: 13px;
+ }
+
+ .btn{
+    width: 100px;
+ }
+ .btn p{
+    font-size: 11px;
+    margin-left: 5px;
+ }
+}
+/* END OF SIDELOGO */
